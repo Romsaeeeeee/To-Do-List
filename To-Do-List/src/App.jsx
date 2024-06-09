@@ -1,7 +1,11 @@
-function App() {
-  const [count, setCount] = useState(0);
+import ToDoList from "./assets/ToDoList";
 
-  return <></>;
+function App() {
+  return (
+    <>
+      <ToDoList />
+    </>
+  );
 }
 
 export default App;
